@@ -22,8 +22,21 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Animated Transition"
     };
 
+    /*
     private static final int[] LAYOUT_IDS = {
             R.layout.layout_simple,
+            R.layout.list_item_flat,
+            R.layout.layout_center,
+            R.layout.layout_form,
+            R.layout.layout_weighted,
+            R.layout.layout_ratios,
+            R.layout.layout_ratios_any,
+            R.layout.layout_transition_1
+    };
+    */
+
+    private static final int[] LAYOUT_IDS = {
+            R.layout.layout_simple_without_constraint,
             R.layout.list_item_flat,
             R.layout.layout_center,
             R.layout.layout_form,
