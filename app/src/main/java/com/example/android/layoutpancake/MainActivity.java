@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private static final int[] LAYOUT_IDS = {
             R.layout.layout_simple_without_constraint,
-            R.layout.list_item_flat,
-            R.layout.layout_center,
-            R.layout.layout_form,
-            R.layout.layout_weighted,
+            R.layout.list_item_flat_without_constraint,
+            R.layout.layout_center_without_constraint,
+            R.layout.layout_form_without_constraint,
+            R.layout.layout_weighted_without_constraint,
             R.layout.layout_ratios,
             R.layout.layout_ratios_any,
             R.layout.layout_transition_1
